@@ -1,0 +1,26 @@
+# Eval gate thresholds — compared against reports/metrics.json by src/eval_gate.py
+# CI fails if any metric is below (or above for latency/fallback) the threshold.
+
+thresholds:
+  macro_f1:
+    min: 0.85
+  accuracy:
+    min: 0.87
+  billing_f1:
+    min: 0.88
+  technical_support_f1:
+    min: 0.86
+  complaint_f1:
+    min: 0.82
+  other_f1:
+    min: 0.65
+  latency_p95_ms:
+    max: 700
+  fallback_rate:
+    max: 0.05
+  golden_set_accuracy:
+    min: 0.90
+
+regression:
+  max_macro_f1_drop: 0.03
+  max_per_class_f1_drop: 0.05

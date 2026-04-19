@@ -1,0 +1,30 @@
+{"id": "gold-001", "text": "I need to update my billing information", "expected_label": "billing"}
+{"id": "gold-002", "text": "Please cancel my subscription immediately", "expected_label": "billing"}
+{"id": "gold-003", "text": "I was charged the wrong amount this month", "expected_label": "billing"}
+{"id": "gold-004", "text": "Can I get a refund for last month?", "expected_label": "billing"}
+{"id": "gold-005", "text": "Where can I find my invoice?", "expected_label": "billing"}
+{"id": "gold-006", "text": "The app will not load on my phone", "expected_label": "technical_support"}
+{"id": "gold-007", "text": "I am getting an error 500 when I try to export", "expected_label": "technical_support"}
+{"id": "gold-008", "text": "My notifications have stopped working", "expected_label": "technical_support"}
+{"id": "gold-009", "text": "The login page keeps refreshing", "expected_label": "technical_support"}
+{"id": "gold-010", "text": "I found a bug in the dashboard charts", "expected_label": "technical_support"}
+{"id": "gold-011", "text": "How do I add another user to my team?", "expected_label": "account_management"}
+{"id": "gold-012", "text": "I want to change the email address on my account", "expected_label": "account_management"}
+{"id": "gold-013", "text": "Can I transfer my account to someone else?", "expected_label": "account_management"}
+{"id": "gold-014", "text": "I need to delete my account permanently", "expected_label": "account_management"}
+{"id": "gold-015", "text": "What plans do you offer for large teams?", "expected_label": "sales_inquiry"}
+{"id": "gold-016", "text": "Do you have a free trial available?", "expected_label": "sales_inquiry"}
+{"id": "gold-017", "text": "I am interested in the enterprise tier", "expected_label": "sales_inquiry"}
+{"id": "gold-018", "text": "Can you send me more information about pricing?", "expected_label": "sales_inquiry"}
+{"id": "gold-019", "text": "This is completely unacceptable and I am furious", "expected_label": "complaint"}
+{"id": "gold-020", "text": "I have been waiting a week and nobody has replied", "expected_label": "complaint"}
+{"id": "gold-021", "text": "Your service has gone downhill recently", "expected_label": "complaint"}
+{"id": "gold-022", "text": "I am extremely disappointed with this product", "expected_label": "complaint"}
+{"id": "gold-023", "text": "Just wanted to say your support team is amazing", "expected_label": "compliment"}
+{"id": "gold-024", "text": "The new update is fantastic, well done", "expected_label": "compliment"}
+{"id": "gold-025", "text": "I am really impressed with how fast you resolved this", "expected_label": "compliment"}
+{"id": "gold-026", "text": "Five stars, keep up the great work", "expected_label": "compliment"}
+{"id": "gold-027", "text": "Not sure what category this falls into", "expected_label": "other"}
+{"id": "gold-028", "text": "Just testing to see if this works", "expected_label": "other"}
+{"id": "gold-029", "text": "Hello", "expected_label": "other"}
+{"id": "gold-030", "text": "Can I ask a general question about your company?", "expected_label": "other"}

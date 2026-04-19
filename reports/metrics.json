@@ -1,0 +1,14 @@
+{
+  "macro_f1": 0.87,
+  "accuracy": 0.89,
+  "billing_f1": 0.91,
+  "technical_support_f1": 0.88,
+  "complaint_f1": 0.84,
+  "other_f1": 0.70,
+  "latency_p95_ms": 420,
+  "fallback_rate": 0.02,
+  "golden_set_accuracy": 0.93,
+  "model_version": "1.0.0",
+  "evaluated_at": "2024-04-19T00:00:00Z",
+  "note": "Stub metrics for CI skeleton — replace with real eval output"
+}
