@@ -1,22 +1,11 @@
-name: Data Check
-
-on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-
-jobs:
-  data-check:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-    - name: Install dependencies
-      run: |
-        pip install pytest pandas
-    - name: Run data checks
-      run: python -m pytest tests/test_data_checks.py -v
+name: make data-check 
+on: [push] 
+jobs: 
+  data-check: 
+    runs-on: ubuntu-latest 
+    steps: 
+    - uses: actions/checkout@v4 
+    - name: Run data checks 
+      run: | 
+        pip install pytest pandas 
+        pytest tests/test_data_checks.py -v 
